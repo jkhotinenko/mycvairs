@@ -6,20 +6,54 @@
 
 }
 .left{
-  width:30%;
+  width:20%;
   height:100vh;
   background: black;
   color:white;
+  display:grid;
+  flex-direction: column;
+
 }
 .right{
-  width: 70%;
+  width: 60%;
 }
-.photo{
+.admin{
+  width: 20%;
+}
+.pho{
   width:250px;
   height: 300px;
-  left: calc(30% - 200px);
+  left: calc(20% - 200px);
   position: absolute;
   top: 5%;
+}
+.mn{
+  height:55vh;
+}
+.contact{
+  font-size: 35px;
+  font-weight: bold;
+  padding-left: 10%;
+  /*display: grid;*/
+  /*align-items: end;*/
+  padding-top: 400px;
+}
+.educ{
+  font-size: 35px;
+  font-weight: bold;
+  padding-left: 10%;
+}
+.contactp{
+  padding-left: 15%;
+}
+.posi{
+  /*display: flex;*/
+}
+.position{
+  font-size: 25px;
+  font-family: Arial;
+  /*text-align: center;*/
+  padding-left: 150px;
 }
 .FIO{
   display: flex;
@@ -27,10 +61,17 @@
   font-family: Arial;
   font-size: 40px;
   padding-top: 20px;
+
+}
+.hd{
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
 }
 .Name{
   padding-left: 120px;
   font-weight: bold;
+  /*text-align: center;*/
 }
 .Last{
   padding-left: 10px;

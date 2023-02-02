@@ -2,9 +2,9 @@ import React from 'react';
 
 const Photo = () => {
     return (
-        <div>
-            <img className="photo" src="YarKh.png" alt="image"/>
-        </div>
+        // <div>
+            <img className="pho" src="YarKh.png" alt="image"/>
+        // </div>
     );
 };
 
