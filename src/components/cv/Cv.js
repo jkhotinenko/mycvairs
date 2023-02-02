@@ -5,6 +5,8 @@ import {Position} from "../Position/Position";
 import {Contact} from "../contact/contact";
 import {ContactP} from "../ContactP/ContactP";
 import {Educ} from "../contact/educ";
+import {Expi} from "../../expirience/expi";
+import {Action} from "../../expirience/action";
 
 const Cv = () => {
     return (
@@ -22,7 +24,8 @@ const Cv = () => {
             <div className="right">
                 <Name/>
                 <Position/>
-
+               <Action/>
+                <Expi/>
             </div>
             <div className="admin"></div>
         </div>

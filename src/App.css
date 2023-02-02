@@ -1,3 +1,12 @@
+.year{
+  font-size: 30px;
+}
+.comp{
+  font-size: 30px;
+}
+.desc{
+  font-size: 26px;
+}
 .cv{
   display: flex;
   flex-direction: row;
@@ -7,8 +16,7 @@
 }
 .left{
   width:20%;
-  height:100vh;
-  background: black;
+  background: rgb(30,30,30);
   color:white;
   display:grid;
   flex-direction: column;
@@ -28,10 +36,10 @@
   top: 5%;
 }
 .mn{
-  height:55vh;
+
 }
 .contact{
-  font-size: 35px;
+  font-size: 45px;
   font-weight: bold;
   padding-left: 10%;
   /*display: grid;*/
@@ -39,9 +47,26 @@
   padding-top: 400px;
 }
 .educ{
-  font-size: 35px;
+  font-size: 45px;
   font-weight: bold;
   padding-left: 10%;
+  padding-top: 10%;
+}
+.action{
+  padding-left: 10%;
+  font-size: 30px;
+}
+.cmpn{
+  padding-top: 30px;
+}
+.expi{
+  padding-left: 10%;
+  padding-top: 5%;
+}
+.expe{
+  font-size: 45px;
+  font-weight: bold;
+
 }
 .contactp{
   padding-left: 15%;
@@ -65,8 +90,11 @@
 }
 .hd{
   margin-top: 10px;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
+}
+.id{
+  font-size: 25px;
 }
 .Name{
   padding-left: 120px;
