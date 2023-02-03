@@ -14,6 +14,7 @@ const Cv = () => {
             <div className="left">
 
                 <Photo/>
+                <div className='lb'></div>
                 <Contact/>
                   {/*<div>*/}
 

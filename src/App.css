@@ -15,7 +15,7 @@
 
 }
 .left{
-  width:20%;
+  width:30%;
   background: rgb(30,30,30);
   color:white;
   display:grid;
@@ -26,12 +26,12 @@
   width: 60%;
 }
 .admin{
-  width: 20%;
+  width: 10%;
 }
 .pho{
   width:250px;
   height: 300px;
-  left: calc(20% - 200px);
+  left: calc(20% - 50px);
   position: absolute;
   top: 5%;
 }
@@ -41,15 +41,15 @@
 .contact{
   font-size: 45px;
   font-weight: bold;
-  padding-left: 10%;
+  padding-left: 20%;
   /*display: grid;*/
   /*align-items: end;*/
-  padding-top: 400px;
+  padding-top: 200px;
 }
 .educ{
   font-size: 45px;
   font-weight: bold;
-  padding-left: 10%;
+  padding-left: 20%;
   padding-top: 10%;
 }
 .action{
@@ -60,7 +60,7 @@
   padding-top: 30px;
 }
 .expi{
-  padding-left: 10%;
+  padding-left: 20%;
   padding-top: 5%;
 }
 .expe{
@@ -69,7 +69,28 @@
 
 }
 .contactp{
-  padding-left: 15%;
+  padding-left: 25%;
+}
+.educP{
+ font-weight: normal;
+  padding-top: 5%;
+  padding-left: 5%;
+}
+.ehd{
+
+  font-size: 26px;
+}
+.eid{
+  font-size: 30px;
+  font-weight:bold;
+}
+.eps{
+  font-size: 26px;
+}
+.lb{
+  background: darkred;
+  width: 80%;
+  height: 200px;
 }
 .posi{
   /*display: flex;*/
@@ -79,6 +100,9 @@
   font-family: Arial;
   /*text-align: center;*/
   padding-left: 150px;
+  padding-top: 25px;
+  color: darkred;
+  font-weight: bold;
 }
 .FIO{
   display: flex;
